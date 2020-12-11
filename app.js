@@ -11,7 +11,7 @@ var app = new Vue({
             let extraKmValue = 0.2
 
             if (value) {
-                finalValue += 2000
+                finalValue += 3000
                 if (value > 1) {
                     finalValue += (value - 1) * 200
                 }
